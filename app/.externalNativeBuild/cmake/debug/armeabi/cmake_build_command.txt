@@ -1,0 +1,15 @@
+Executable : /Users/xiaokai.zhan/soft/sdk_4_android_studio/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app
+-B/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/.externalNativeBuild/cmake/debug/armeabi
+-DANDROID_ABI=armeabi
+-DANDROID_PLATFORM=android-18
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/build/intermediates/cmake/debug/obj/armeabi
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle
+-DCMAKE_CXX_FLAGS=
+-DCMAKE_TOOLCHAIN_FILE=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/xiaokai.zhan/soft/sdk_4_android_studio/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+jvmArgs : 
+

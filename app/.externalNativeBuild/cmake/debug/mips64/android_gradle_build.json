@@ -1,0 +1,218 @@
+
+{
+	"buildFiles" : [ "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/xiaokai.zhan/soft/sdk_4_android_studio/cmake/3.6.4111459/bin/cmake --build /Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/.externalNativeBuild/cmake/debug/mips64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Debug-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/xiaokai.zhan/soft/sdk_4_android_studio/cmake/3.6.4111459/bin/cmake --build /Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/.externalNativeBuild/cmake/debug/mips64 --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/thirdparty/ffmpeg/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    \t-DGL_GLEXT_PROTOTYPES \t-DEGL_EGLEXT_PROTOTYPES   -c ",
+					"src" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/.externalNativeBuild/cmake/debug/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/thirdparty/ffmpeg/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    \t-DGL_GLEXT_PROTOTYPES \t-DEGL_EGLEXT_PROTOTYPES   -c ",
+					"src" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/src/main/cpp/common/matrix.cpp",
+					"workingDirectory" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/.externalNativeBuild/cmake/debug/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/thirdparty/ffmpeg/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    \t-DGL_GLEXT_PROTOTYPES \t-DEGL_EGLEXT_PROTOTYPES   -c ",
+					"src" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/src/main/cpp/common/thread.cpp",
+					"workingDirectory" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/.externalNativeBuild/cmake/debug/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/thirdparty/ffmpeg/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    \t-DGL_GLEXT_PROTOTYPES \t-DEGL_EGLEXT_PROTOTYPES   -c ",
+					"src" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/src/main/cpp/common/egl_core/egl_core.cpp",
+					"workingDirectory" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/.externalNativeBuild/cmake/debug/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/thirdparty/ffmpeg/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    \t-DGL_GLEXT_PROTOTYPES \t-DEGL_EGLEXT_PROTOTYPES   -c ",
+					"src" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/src/main/cpp/common/egl_core/egl_share_context.cpp",
+					"workingDirectory" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/.externalNativeBuild/cmake/debug/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/thirdparty/ffmpeg/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    \t-DGL_GLEXT_PROTOTYPES \t-DEGL_EGLEXT_PROTOTYPES   -c ",
+					"src" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/src/main/cpp/common/message_queue/handler.cpp",
+					"workingDirectory" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/.externalNativeBuild/cmake/debug/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/thirdparty/ffmpeg/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    \t-DGL_GLEXT_PROTOTYPES \t-DEGL_EGLEXT_PROTOTYPES   -c ",
+					"src" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/src/main/cpp/common/message_queue/message_queue.cpp",
+					"workingDirectory" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/.externalNativeBuild/cmake/debug/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/thirdparty/ffmpeg/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    \t-DGL_GLEXT_PROTOTYPES \t-DEGL_EGLEXT_PROTOTYPES   -c ",
+					"src" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/src/main/cpp/common/opengl_media/movie_frame.cpp",
+					"workingDirectory" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/.externalNativeBuild/cmake/debug/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/thirdparty/ffmpeg/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    \t-DGL_GLEXT_PROTOTYPES \t-DEGL_EGLEXT_PROTOTYPES   -c ",
+					"src" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/src/main/cpp/camera_preview/mv_recording_preview_controller.cpp",
+					"workingDirectory" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/.externalNativeBuild/cmake/debug/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/thirdparty/ffmpeg/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    \t-DGL_GLEXT_PROTOTYPES \t-DEGL_EGLEXT_PROTOTYPES   -c ",
+					"src" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/src/main/cpp/camera_preview/recording_preview_renderer.cpp",
+					"workingDirectory" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/.externalNativeBuild/cmake/debug/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/thirdparty/ffmpeg/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    \t-DGL_GLEXT_PROTOTYPES \t-DEGL_EGLEXT_PROTOTYPES   -c ",
+					"src" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/src/main/cpp/livecore/common/live_audio_packet_pool.cpp",
+					"workingDirectory" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/.externalNativeBuild/cmake/debug/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/thirdparty/ffmpeg/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    \t-DGL_GLEXT_PROTOTYPES \t-DEGL_EGLEXT_PROTOTYPES   -c ",
+					"src" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/src/main/cpp/livecore/common/live_audio_packet_queue.cpp",
+					"workingDirectory" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/.externalNativeBuild/cmake/debug/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/thirdparty/ffmpeg/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    \t-DGL_GLEXT_PROTOTYPES \t-DEGL_EGLEXT_PROTOTYPES   -c ",
+					"src" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/src/main/cpp/livecore/common/live_packet_pool.cpp",
+					"workingDirectory" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/.externalNativeBuild/cmake/debug/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/thirdparty/ffmpeg/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    \t-DGL_GLEXT_PROTOTYPES \t-DEGL_EGLEXT_PROTOTYPES   -c ",
+					"src" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/src/main/cpp/livecore/common/live_thread.cpp",
+					"workingDirectory" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/.externalNativeBuild/cmake/debug/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/thirdparty/ffmpeg/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    \t-DGL_GLEXT_PROTOTYPES \t-DEGL_EGLEXT_PROTOTYPES   -c ",
+					"src" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/src/main/cpp/livecore/common/live_video_packet_queue.cpp",
+					"workingDirectory" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/.externalNativeBuild/cmake/debug/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/thirdparty/ffmpeg/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    \t-DGL_GLEXT_PROTOTYPES \t-DEGL_EGLEXT_PROTOTYPES   -c ",
+					"src" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/src/main/cpp/livecore/common/live_video_quality_agent.cpp",
+					"workingDirectory" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/.externalNativeBuild/cmake/debug/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/thirdparty/ffmpeg/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    \t-DGL_GLEXT_PROTOTYPES \t-DEGL_EGLEXT_PROTOTYPES   -c ",
+					"src" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/src/main/cpp/livecore/common/publisher_rate_feed_back.cpp",
+					"workingDirectory" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/.externalNativeBuild/cmake/debug/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/thirdparty/ffmpeg/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    \t-DGL_GLEXT_PROTOTYPES \t-DEGL_EGLEXT_PROTOTYPES   -c ",
+					"src" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/src/main/cpp/livecore/common/publisher_statistics.cpp",
+					"workingDirectory" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/.externalNativeBuild/cmake/debug/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/thirdparty/ffmpeg/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    \t-DGL_GLEXT_PROTOTYPES \t-DEGL_EGLEXT_PROTOTYPES   -c ",
+					"src" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/src/main/cpp/livecore/audio_encoder/audio_encoder.cpp",
+					"workingDirectory" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/.externalNativeBuild/cmake/debug/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/thirdparty/ffmpeg/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    \t-DGL_GLEXT_PROTOTYPES \t-DEGL_EGLEXT_PROTOTYPES   -c ",
+					"src" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/src/main/cpp/livecore/audio_encoder/audio_encoder_adapter.cpp",
+					"workingDirectory" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/.externalNativeBuild/cmake/debug/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/thirdparty/ffmpeg/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    \t-DGL_GLEXT_PROTOTYPES \t-DEGL_EGLEXT_PROTOTYPES   -c ",
+					"src" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/src/main/cpp/livecore/consumer/video_consumer_thread.cpp",
+					"workingDirectory" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/.externalNativeBuild/cmake/debug/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/thirdparty/ffmpeg/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    \t-DGL_GLEXT_PROTOTYPES \t-DEGL_EGLEXT_PROTOTYPES   -c ",
+					"src" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/src/main/cpp/livecore/publisher/recording_h264_publisher.cpp",
+					"workingDirectory" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/.externalNativeBuild/cmake/debug/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/thirdparty/ffmpeg/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    \t-DGL_GLEXT_PROTOTYPES \t-DEGL_EGLEXT_PROTOTYPES   -c ",
+					"src" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/src/main/cpp/livecore/publisher/recording_publisher.cpp",
+					"workingDirectory" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/.externalNativeBuild/cmake/debug/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/thirdparty/ffmpeg/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    \t-DGL_GLEXT_PROTOTYPES \t-DEGL_EGLEXT_PROTOTYPES   -c ",
+					"src" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/src/main/cpp/music_decoder/aac_accompany_decoder.cpp",
+					"workingDirectory" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/.externalNativeBuild/cmake/debug/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/thirdparty/ffmpeg/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    \t-DGL_GLEXT_PROTOTYPES \t-DEGL_EGLEXT_PROTOTYPES   -c ",
+					"src" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/src/main/cpp/music_decoder/song_decoder_controller.cpp",
+					"workingDirectory" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/.externalNativeBuild/cmake/debug/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/thirdparty/ffmpeg/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    \t-DGL_GLEXT_PROTOTYPES \t-DEGL_EGLEXT_PROTOTYPES   -c ",
+					"src" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/src/main/cpp/recorder_processor/record_corrector.cpp",
+					"workingDirectory" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/.externalNativeBuild/cmake/debug/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/thirdparty/ffmpeg/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    \t-DGL_GLEXT_PROTOTYPES \t-DEGL_EGLEXT_PROTOTYPES   -c ",
+					"src" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/src/main/cpp/recorder_processor/record_processor.cpp",
+					"workingDirectory" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/.externalNativeBuild/cmake/debug/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/thirdparty/ffmpeg/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    \t-DGL_GLEXT_PROTOTYPES \t-DEGL_EGLEXT_PROTOTYPES   -c ",
+					"src" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/src/main/cpp/video_consumer/libaudio_encoder/audio_process_encoder_adapter.cpp",
+					"workingDirectory" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/.externalNativeBuild/cmake/debug/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/thirdparty/ffmpeg/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    \t-DGL_GLEXT_PROTOTYPES \t-DEGL_EGLEXT_PROTOTYPES   -c ",
+					"src" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/src/main/cpp/video_consumer/libmusic_merger/music_merger.cpp",
+					"workingDirectory" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/.externalNativeBuild/cmake/debug/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/thirdparty/ffmpeg/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    \t-DGL_GLEXT_PROTOTYPES \t-DEGL_EGLEXT_PROTOTYPES   -c ",
+					"src" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/src/main/cpp/video_consumer/libvideo_consumer/live_common_packet_pool.cpp",
+					"workingDirectory" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/.externalNativeBuild/cmake/debug/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/thirdparty/ffmpeg/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/include -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    \t-DGL_GLEXT_PROTOTYPES \t-DEGL_EGLEXT_PROTOTYPES   -c ",
+					"src" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/src/main/cpp/video_consumer/libvideo_consumer/video_packet_consumer.cpp",
+					"workingDirectory" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/.externalNativeBuild/cmake/debug/mips64"
+				}
+			],
+			"output" : "/Users/xiaokai.zhan/webrtc/workspace/WebRTCDemo/app/build/intermediates/cmake/debug/obj/mips64/libnative-lib.so",
+			"toolchain" : "3134401056387075741"
+		}
+	},
+	"toolchains" : 
+	{
+		"3134401056387075741" : 
+		{
+			"cCompilerExecutable" : "/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

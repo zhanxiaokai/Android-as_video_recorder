@@ -1,0 +1,3 @@
+/Users/xiaokai.zhan/book/workspace/android/as_video_recorder/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/xiaokai.zhan/book/workspace/android/as_video_recorder/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/xiaokai.zhan/book/workspace/android/as_video_recorder/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/native-lib.dir

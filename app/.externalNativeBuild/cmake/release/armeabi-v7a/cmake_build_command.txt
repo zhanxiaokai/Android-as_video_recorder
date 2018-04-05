@@ -1,0 +1,21 @@
+Executable : /Users/xiaokai.zhan/soft/sdk_4_android_studio/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/Users/xiaokai.zhan/book/workspace/android/as_video_recorder/app
+-B/Users/xiaokai.zhan/book/workspace/android/as_video_recorder/app/.externalNativeBuild/cmake/release/armeabi-v7a
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_PLATFORM=android-18
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/xiaokai.zhan/book/workspace/android/as_video_recorder/app/build/intermediates/cmake/release/obj/armeabi-v7a
+-DCMAKE_BUILD_TYPE=Release
+-DANDROID_NDK=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle
+-DCMAKE_C_FLAGS=-O3 -DGL_GLEXT_PROTOTYPES -DEGL_EGLEXT_PROTOTYPES -fsigned-char -Wformat -mfpu=neon -mfloat-abi=softfp -frtti
+-DCMAKE_CXX_FLAGS= -O3 -fexceptions -fsigned-char -frtti -std=c++11 -Wformat
+-DCMAKE_TOOLCHAIN_FILE=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/xiaokai.zhan/soft/sdk_4_android_studio/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+-DANDROID_PLATFORM=android-16
+-DANDROID_TOOLCHAIN=clang
+-DANDROID_ARM_NEON=TRUE
+-DANDROID_STL=gnustl_static
+-DCMAKE_BUILD_TYPE=RelWithDebInfo
+jvmArgs : 
+
