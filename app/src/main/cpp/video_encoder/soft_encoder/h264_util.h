@@ -81,14 +81,18 @@ static inline void parseH264SpsPps(uint8_t* in_pBuffer, uint32_t in_ui32Size,
 				tempUnit = new NALUnit(_H264_NALU_TYPE_PICTURE_PARAMETER_SET, tempBufferCursor);
 			break;
 			case _H264_NALU_TYPE_SEI:
-				tempUnit->naluSize = ui32ProcessedBytes - 3;
-				units->push_back(tempUnit);
+                if (tempUnit != NULL){
+                    tempUnit->naluSize = ui32ProcessedBytes - 3;
+                    units->push_back(tempUnit);
+                }
 				tempBufferCursor = tempBufferCursor + ui32ProcessedBytes;
 				tempUnit = new NALUnit(_H264_NALU_TYPE_SEI, tempBufferCursor);
 			break;
 			case _H264_NALU_TYPE_IDR_PICTURE:
-				tempUnit->naluSize = ui32ProcessedBytes - 3;
-				units->push_back(tempUnit);
+                if (tempUnit != NULL) {
+                    tempUnit->naluSize = ui32ProcessedBytes - 3;
+                    units->push_back(tempUnit);
+                }
 				tempBufferCursor = tempBufferCursor + ui32ProcessedBytes;
 				tempUnit = new NALUnit(_H264_NALU_TYPE_IDR_PICTURE, tempBufferCursor);
 			break;

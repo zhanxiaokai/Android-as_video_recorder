@@ -1,4 +1,5 @@
 #include "./hw_encoder_adapter.h"
+#include "h264_util.h"
 
 #define LOG_TAG "HWEncoderAdapter"
 
@@ -310,7 +311,27 @@ void HWEncoderAdapter::drainEncodedData() {
 
     // push to queue
     int nalu_type = (outputData[4] & 0x1F);
+    LOGI("nalu_type is %d... size is %d", nalu_type, size);
     if (H264_NALU_TYPE_SEQUENCE_PARAMETER_SET == nalu_type) {
+        vector<NALUnit*>* units = new vector<NALUnit*>();
+        parseH264SpsPps(outputData, size, units);
+        int unitSize = units->size();
+        LOGI("unitSize is %d", unitSize);
+        if(unitSize > 2) {
+            //证明是sps和pps后边有I帧
+            const char bytesHeader[] = "\x00\x00\x00\x01";
+            size_t headerLength = 4; //string literals have implicit trailing '\0'
+            NALUnit* idrUnit = units->at(2);
+            int idrSize = idrUnit->naluSize + headerLength;
+            LiveVideoPacket *videoPacket = new LiveVideoPacket();
+            videoPacket->buffer = new byte[idrSize];
+            memcpy(videoPacket->buffer, bytesHeader, headerLength);
+            memcpy(videoPacket->buffer + headerLength, idrUnit->naluBody, idrUnit->naluSize);
+            videoPacket->size = idrSize;
+            videoPacket->timeMills = timeMills;
+            if (videoPacket->size > 0)
+                packetPool->pushRecordingVideoPacketToQueue(videoPacket);
+        }
         if (isSPSUnWriteFlag) {
             LiveVideoPacket *videoPacket = new LiveVideoPacket();
             videoPacket->buffer = new byte[size];
@@ -321,11 +342,44 @@ void HWEncoderAdapter::drainEncodedData() {
                 packetPool->pushRecordingVideoPacketToQueue(videoPacket);
             isSPSUnWriteFlag = false;
         }
-    } else {
+    } else  if (size > 0){
+        //为了兼容有一些设备的MediaCodec编码出来的每一帧有多个Slice的问题(华为荣耀6，华为P9)
+        int frameBufferSize = 0;
+        size_t headerLength = 4;
+        byte* frameBuffer;
+        const char bytesHeader[] = "\x00\x00\x00\x01";
+
+        vector<NALUnit*>* units = new vector<NALUnit*>();
+
+        parseH264SpsPps(outputData, size, units);
+        vector<NALUnit*>::iterator i;
+        for (i = units->begin(); i != units->end(); ++i) {
+            NALUnit* unit = *i;
+            int frameLen = unit->naluSize;
+            frameBufferSize+=headerLength;
+            frameBufferSize+=frameLen;
+        }
+        frameBuffer = new byte[frameBufferSize];
+        int frameBufferCursor = 0;
+        for (i = units->begin(); i != units->end(); ++i) {
+            NALUnit* unit = *i;
+            uint8_t* nonIDRFrame = unit->naluBody;
+            int nonIDRFrameLen = unit->naluSize;
+            memcpy(frameBuffer + frameBufferCursor, bytesHeader, headerLength);
+            frameBufferCursor+=headerLength;
+            memcpy(frameBuffer + frameBufferCursor, nonIDRFrame, nonIDRFrameLen);
+            frameBufferCursor+=nonIDRFrameLen;
+            frameBuffer[frameBufferCursor - nonIDRFrameLen - headerLength] = ((nonIDRFrameLen) >> 24) & 0x00ff;
+            frameBuffer[frameBufferCursor - nonIDRFrameLen - headerLength + 1] = ((nonIDRFrameLen) >> 16) & 0x00ff;
+            frameBuffer[frameBufferCursor - nonIDRFrameLen - headerLength + 2] = ((nonIDRFrameLen) >> 8) & 0x00ff;
+            frameBuffer[frameBufferCursor - nonIDRFrameLen - headerLength + 3] = ((nonIDRFrameLen)) & 0x00ff;
+            delete unit;
+        }
+        delete units;
+
         LiveVideoPacket *videoPacket = new LiveVideoPacket();
-        videoPacket->buffer = new byte[size];
-        memcpy(videoPacket->buffer, outputData, size);
-        videoPacket->size = size;
+        videoPacket->buffer = frameBuffer;
+        videoPacket->size = frameBufferSize;
         videoPacket->timeMills = timeMills;
         if (videoPacket->size > 0)
             packetPool->pushRecordingVideoPacketToQueue(videoPacket);

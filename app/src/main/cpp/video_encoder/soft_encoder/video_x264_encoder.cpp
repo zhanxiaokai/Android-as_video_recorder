@@ -22,6 +22,7 @@ int VideoX264Encoder::init(int width, int height, int videoBitRate, float frameR
 	this->allocAVFrame();
 	this->packetPool = packetPool;
 	isSPSUnWriteFlag = true;
+    return 0;
 }
 
 int VideoX264Encoder::encode(LiveVideoPacket * yuy2VideoPacket) {
@@ -177,6 +178,7 @@ int VideoX264Encoder::destroy() {
 	avcodec_close(pCodecCtx);
 	av_free(pFrame);
 	av_free(picture_buf);
+    return 0;
 }
 
 void VideoX264Encoder::reConfigure(int bitRate){
